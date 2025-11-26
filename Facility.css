@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(229, 248, 245);
+    background-color: rgb(236 247 240);
 }
 
 .hero{
@@ -48,7 +48,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     color: white;
-    background: #59f797;
+    background: #21a36b;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -60,9 +60,9 @@ body {
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 600;
-    color: #a8f7c8;
+    color: #21a36b;
     background-color: white;
-    border: 2px solid #b0f8cd;
+    border: 2px solid #21a36b;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -134,7 +134,7 @@ body {
 .icon-circle {
     width: 70px;
     height: 70px;
-    background: #e7f0ff;
+    background: #dff7e4;
     margin: auto;
     border-radius: 50%;
     display: flex;
@@ -177,11 +177,11 @@ body {
 }
 
 .blue-btn {
-    background: #2d7ff9;
+    background: #21a36b;
 }
 
 .blue-btn:hover {
-    background: #1a6ad6;
+    background: #1d8b5b;
 }
 
 .green-btn {
@@ -190,6 +190,12 @@ body {
 
 .green-btn:hover {
     background: #1d8b5b;
+}
+
+/* Fade-out animation */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
 }
 
 
